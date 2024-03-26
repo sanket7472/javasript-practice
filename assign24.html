@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 24</title>
+</head>
+<body>
+    <h1>Circle Operation</h1>
+    <h3> Calculates area of circle</h3>
+    <script>
+       
+        console.log('Type 1: Argument and Return');
+        function calculateArea1(r)
+        {
+            const area  = 3.14 * r * r;
+            return area;
+        }
+        const r = calculateArea1(2);
+        console.log('Area of Circle 1 :' ,$,{r});
+        
+        
+        console.log('Type 2: Argument but no Return');
+        function calculateArea2(r2)
+        {
+            const area  = 2.14 * r2 * r2;
+            console.log('Area of Circle 2 : ',$,{r2});
+        }
+        const r2 = calculateArea2(3);
+        
+   
+        console.log('Type 3: No Argument but Return');
+        const r3 = 4;
+        function calculateArea3()
+        {
+            const area3  = 2.14 * r3 * r3;
+            return area3;
+        }
+        const Area3 = calculateArea3();
+        console.log('Area of Circle 3 : ',$,{Area3});
+
+        
+        console.log('Type 4: No Argument but No Return');
+        const r4 = 6;
+        function calculateArea4()
+        {
+            const area4  = 2.14 * r4 * r4;
+            console.log('Area of Circle 4 : ',$,{area4});
+        }
+        calculateArea4();
+        
+
+    </script>
+</body>
+</html>
